@@ -42,3 +42,11 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+.button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2590d8;
+    color: white;
+    text-decoration: none;
+}
