@@ -1,8 +1,12 @@
+:root {
+    --primary: rgb(162, 57, 57);
+    --accent: green;
+}
+
 header{ background-color: var(--primary);}
 .button{ background-color: var(--accent);}
 
 header{
-    background-color: rgb(42, 42, 144);
     color: white;
     padding: 20px;
     text-align: center;
@@ -42,5 +46,5 @@ footer{
 
 /*Button Hover Class selector*/
 .button:hover {
-    background-color: #002e4a;
+    background-color: #77cbff;
 }
