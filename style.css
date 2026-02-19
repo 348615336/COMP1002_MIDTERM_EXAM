@@ -28,3 +28,17 @@ nav ul {
     list-style-type: none;
     padding: 0;
 }
+
+/*Child selector*/
+nav > ul > li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/*Footer Style*/
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
