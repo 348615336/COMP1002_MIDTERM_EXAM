@@ -20,21 +20,32 @@ A submit button (1 mark)
     <header>
         <h1>COMP1002-26W-21104</h1>
         <h2>Login Page</h2>
+        <nav>
+            <ul>
+                <li><a href="#email">Email</a></li>
+                <li><a href="#password">Password</a></li>
+                <li><a href="#submit">Submit button</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <form>
             <!--Email section-->
-            <p>
-                <label for="email_address">Email address:</label>
-                <input type="email" id="email_address" name="email_address" required>
-            </p>
+            <section id="email">
+                <p>
+                    <label for="email_address">Email address:</label>
+                    <input type="email" id="email_address" name="email_address" required>
+                </p>
+            </section>
 
             <!--Password section-->
-            <p>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </p>
+            <section id="password">
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
+            </section>
 
             <!--Button Section-->
             <button type="Submit">Submit</button>
