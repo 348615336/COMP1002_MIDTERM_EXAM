@@ -1,3 +1,13 @@
+<!--
+Page / HTML Requirements (6 marks)
+Semantic layout using <header>, <main>, and <footer> (2 marks)
+A navigation bar inside <nav> with at least 3 links (1 mark)
+A login form that includes:
+An email input using type="email" and required (1 mark)
+A password input using type="password" and required (1 mark)
+A submit button (1 mark)
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,21 +16,33 @@
 </head>
 
 <body>
-    <form>
-        <h1>Login Page</h1>
-        <!--Email section-->
-        <p>
-            <label for="email_address">Email address:</label>
-            <input type="email" id="email_address" name="email_address" required>
-        </p>
+    <!--Page title-->
+    <header>
+        <h1>COMP1002-26W-21104</h1>
+        <h2>Login Page</h2>
+    </header>
 
-        <!--Password section-->
-        <p>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </p>
+    <main>
+        <form>
+            <!--Email section-->
+            <p>
+                <label for="email_address">Email address:</label>
+                <input type="email" id="email_address" name="email_address" required>
+            </p>
 
-        <!--Button Section-->
-        <button type="Submit">Submit</button>
-    </form>
+            <!--Password section-->
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </p>
+
+            <!--Button Section-->
+            <button type="Submit">Submit</button>
+        </form>
+    </main>
+
+    <!--Bottom of page-->
+    <footer>
+        <h2>Link to <a href="https://github.com/348615336">Github</a> </h2>
+    </footer>
 </body>
