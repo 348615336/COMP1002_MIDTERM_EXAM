@@ -9,6 +9,9 @@ Include at least one interactive state (:hover or :focus) (1 mark)
 */
 
 /*Font selector*/
+header{ background-color: var(--primary);}
+header{ background-color: var(--primary);}
+
 header{
     background-color: rgb(42, 42, 144);
     color: white;
@@ -30,12 +33,6 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-}
-
-/*Child selector*/
-nav > ul > li {
-    display: inline;
-    margin: 0 10px;
 }
 
 /*Footer Style*/
