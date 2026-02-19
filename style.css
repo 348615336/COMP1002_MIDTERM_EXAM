@@ -1,0 +1,16 @@
+/*
+Your CSS must:
+Use at least 2 CSS variables (2 marks)
+Use Flexbox in the navigation only (1 mark)
+Use at least three different types of selectors
+ (e.g., element, class, id, pseudo-class, descendant, etc.) (3 marks)
+Style the form so inputs and button do not appear as default browser styling (2 marks)
+Include at least one interactive state (:hover or :focus) (1 mark)
+*/
+
+/*Font selector*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333:
+}
